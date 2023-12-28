@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
   destination:
     namespace: guestbook
-    name: k3sdev # Update this value.
+    name: k3slab # Update this value.
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
